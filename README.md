@@ -16,7 +16,7 @@
 
 <h1 align="center">සඳගිරිය වලව්ව</h1>
 <h3 align="center">Hi 👋, I'm Deeptha Ranaweera. This is my POS System for සඳගිරිය වලව්ව</h3>
-<img align="right" alt="coding" width="500" src="2024-07-1501-44-52-ezgif.com-video-to-gif-converter (1).gif">
+<img align="right" alt="coding" width="500" src="Untitledvideo-MadewithClipchamp3-ezgif.com-video-to-gif-converter.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deeptha99&label=Profile%20views&color=0e75b6&style=flat" alt="deeptharanaweera" /> </p>
 
