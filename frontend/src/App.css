@@ -1,0 +1,408 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-add {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-add h1 {
+    color: #020570;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins-bold';
+}
+
+
+
+.custom-form .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.custom-form .ant-form-item-label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.custom-form .ant-input,
+.custom-form .ant-select-selector {
+    height: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.custom-button {
+    width: 100%;
+    height: 40px;
+    background-color: #020570;
+    border-color: #03038a;
+    font-weight: bold;
+}
+
+.custom-button:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+.category-active {
+    border: 2px solid greenyellow;
+    background-color: #020570;
+}
+
+
+/* Table style */
+.custom-table {
+    background-color: #eff2ff;
+}
+
+.custom-table .ant-table-thead>tr>th {
+    background-color: #031d84;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.custom-table .ant-table-tbody>tr {
+    background-color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Item list header css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bills-list h1 {
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+    /* To remove any default margin */
+}
+
+.add-item-button {
+    background-color: #1100ff;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+}
+
+.add-item-button:hover {
+    background-color: #050337;
+    border-color: #ffffff;
+}
+
+
+
+
+
+/* Invoice Style */
+#invoice-POS {
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    padding: 4mm;
+    margin: 0 auto;
+    width: 76mm;
+    background: white;
+}
+
+::selection {
+    background: red;
+    color: white;
+}
+
+::-moz-selection {
+    background: red;
+    color: white;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: black;
+}
+
+h2 {
+    font-size: 0.9em;
+}
+
+.info h2 {
+    color: #020570;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.info p {
+    color: #ff5e00;
+}
+
+.logo img {
+    width: 50px;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+p {
+    font-size: 0.7em;
+    color: #666;
+}
+
+#top,
+#mid,
+#bot {
+    border-bottom: 2px solid #eee;
+}
+
+#top {
+    min-height: 100px;
+    gap: 0;
+}
+
+#bot {
+    min-height: 50px;
+}
+
+/* #top .logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    background: url(https://drive.google.com/file/d/1yS1O211w6yz8cxptjy-w3W5Wh19TFyYw/view?usp=sharing) no-repeat;
+    background-size: 50px 50px;
+} */
+
+#mid p {
+    color: black;
+    font-size: 10px;
+}
+
+#mid b {
+    color: #646262;
+}
+
+.info {
+    display: block;
+    margin-left: 0;
+}
+
+.title {
+    float: right;
+}
+
+.title p {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabletitle {
+    font-size: 0.5em;
+    background: #eee;
+}
+
+.tabletitle h2 {
+    color: black;
+    font-size: 10px;
+}
+
+.tabletitle p {
+    color: #646262;
+    font-size: 8px;
+}
+
+.payment h2 {
+    color: red;
+}
+
+.service {
+    border-bottom: 1px solid #eee;
+}
+
+.item {
+    width: 24mm;
+}
+
+.itemtext {
+    font-size: 0.5em;
+}
+
+#legalcopy {
+    margin-top: 2mm;
+    align-items: center;
+    align-items: center;
+}
+
+.bills-list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bills-list h1 {
+    color: #020570;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'poppins-bold';
+}
+
+.bills-list hr {
+    width: 5%;
+    margin: 20px 0;
+    border: 2px solid #000355;
+}
+
+
+
+
+
+/* Create Invoice */
+.invoice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+    height: 140px;
+}
+
+.invoice hr {
+    width: 100%;
+    border-top: 2px solid #000000;
+    margin: 0;
+}
+
+.invoice h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.invoice b {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.invoice .create-invoice {
+    align-self: flex-end;
+    width: 100;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+/* Category item */
+.category {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d7d8e6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #02046e;
+    color: white;
+}
+
+/* Selected category styles */
+.category.selected {
+    background-color: #02046e;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+/* Category text */
+.category h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+/* Category image */
+.category img {
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+
+
+.search-filters {
+    background-color: #eae6e6; /* Light gray background */
+    padding: 20px; /* Padding around the entire search filter section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the search filters */
+    border: 1px solid rgb(1, 7, 75);
+}
+
+
+
+.search-filters .ant-input, 
+.search-filters .ant-picker{
+    height: 40px; /* Uniform height for input, date picker, and button */
+    width: 250px;
+    border-radius: 4px; /* Slightly rounded corners for elements */
+}
+
+
+
+.custom-col  input{
+    background-color: #49c5ff;
+    color: #000000;
+}
+
+.date-picker{
+    background-color: #49c5ff;
+}

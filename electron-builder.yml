@@ -1,0 +1,5 @@
+directories:
+  output: dist-electron
+files:
+  - build/**
+  - main.js
